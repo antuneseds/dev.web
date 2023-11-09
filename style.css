@@ -6,3 +6,22 @@ nav a {
     border: 1px solid white;
     border-radius: 30px;
 }
+
+.header {
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+    background-color: #00682d;
+    color: #fff;
+    border-bottom: 10px solid rgb(255, 255, 255);
+}
+
+.cabecalho-esquerda-imagem {
+    height: 120px;
+    margin-left: 30px;
+}
+
+.cabecalho-esquerda {
+    display: flex;
+    align-items: center;
+}
