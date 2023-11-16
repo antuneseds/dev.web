@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Atriumetal Indústria Mecânica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/prisma.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="row">
+      <div class="cabecalho-esquerda col-lg-2 col-md-4">
+        <img class="cabecalho-esquerda-imagem" src="img/atritumetal.png" alt="Logo">
+      </div>
+      <div class="col-lg-10 col-md-8">
+        <h1>Atriumetal Indústria Mecânica</h1>
+        <nav>
+          <ul>
+            <a href="index.html">Início</a>
+            <a href="./valores.html">Valores</a>
+            <a href="./servicos.html">Serviços</a>
+            <a href="./contato.html">Contato</a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+    <h1 class="titulo-principal">Formulário de contato do cliente:</h1>
+    <p class="formulariop">Envie suas informações e entraremos em contao dentro de 72 horas.</p>
+    <form action="#" method="get">
+        <fieldset class="centralizado">
+            <legend class="outrafonte">Dados Pessoais</legend>
+            <div>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <br>
+            </div>
+            <div>
+                <label for="name">Email:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <br>
+            </div>
+            <div>
+                <label for="name">Telefone:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <br>
+            </div>
+            <div>
+                <label for="name">Gênero:</label><br>
+                <input type="radio" id="femi" name="genero" value="Feminino">
+                <label for="femi">Feminino</label><br>
+                <input type="radio" id="masc" name="genero" value="Masculino">
+                <label for="masc">Masculino</label><br>
+                <input type="radio" id="outro" name="genero" value="Outro/prefiro não informar">
+                <label for="outro">Outro/prefiro não informar</label><br>
+                <br>
+            </div>
+            <div>
+                <label for="txtData">Data de nascimento: </label>
+                <input type="date" name="txtData" id="txtData"><br>
+                <br>
+            </div>
+            <div>
+                <textarea name="message" rows="10" cols="30">
+                Adicione aqui uma descrição do serviço que você deseja que façamos.
+                </textarea><br>
+                <br>
+            </div>
+            <div>
+                <label for="txtPass">Senha: </label>
+                <input type="password" name="txtPass" id="txtPass"><br>
+                <br>
+            </div>
+            <div>
+                <label for="name">Você se sente satisfeito com nossos serviços?</label><br>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Sim">
+                    <option value="Não">
+                </datalist>
+            </div>
+
+
+            <input type="button" onclick="alert('Seu formulário foi enviado, dentro de 72 horas entraremos em contato com você!')" value="Clique aqui para prosseguir!">
+        </fieldset>
+    </form>
+    
+
+
+</body>
+
+</html>
