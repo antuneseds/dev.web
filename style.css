@@ -57,3 +57,8 @@ fieldset{
 .outrafonte {
     font-weight: bold;
 }
+
+.imagem-carrossel {
+    height: 600px;
+    width: 250px;
+}
