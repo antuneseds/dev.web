@@ -1,3 +1,4 @@
+/* para navegar */
 nav a {
     color: white;
     text-decoration: none;
@@ -6,7 +7,7 @@ nav a {
     border: 1px solid white;
     border-radius: 30px;
 }
-
+/* identificação inicial */
 .header {
     padding: 20px;
     justify-items: center;
@@ -24,6 +25,7 @@ nav a {
 .cabecalho-esquerda {
     display: flex;
     align-items: center;
+    
 }
 
 footer {
@@ -32,6 +34,8 @@ footer {
     text-align: center;
     padding: 10px 0;
     font-size: 15px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 
 nav a:hover {
@@ -48,6 +52,7 @@ nav a:hover {
 fieldset{
     border: 5px solid black; 
 }
+/* para dar uma jeitada... */
 .centralizado{
     margin-left: 30%;
     margin-right: 30%;
