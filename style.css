@@ -1,4 +1,14 @@
+* {
+    list-style: none;
+}
+
 /* para navegar */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 nav a {
     color: white;
     text-decoration: none;
@@ -7,6 +17,7 @@ nav a {
     border: 1px solid white;
     border-radius: 30px;
 }
+
 /* identificação inicial */
 .header {
     padding: 20px;
@@ -25,7 +36,7 @@ nav a {
 .cabecalho-esquerda {
     display: flex;
     align-items: center;
-    
+
 }
 
 footer {
@@ -46,14 +57,17 @@ nav a:hover {
 .titulo-principal {
     text-align: center;
 }
+
 .formulariop {
     text-align: center;
 }
-fieldset{
-    border: 5px solid black; 
+
+fieldset {
+    border: 5px solid black;
 }
+
 /* para dar uma jeitada... */
-.centralizado{
+.centralizado {
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
@@ -66,4 +80,38 @@ fieldset{
 .imagem-carrossel {
     height: 600px;
     width: 250px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    ul li {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    label {
+        width: 10vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .boto {
+        text-align: center;
+        display: flex;
+        width: 15vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    .boti {
+        text-align: center;
+        display: flex;
+        width: 15vh;
+    }
 }
